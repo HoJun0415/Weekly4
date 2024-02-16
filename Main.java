@@ -28,9 +28,9 @@ public class Main {
             }
         }
 
-        if (!strStack.isEmpty())
-            return false;
-        else
+        if (strStack.isEmpty())
             return true;
+        else
+            return false;
     }
 }
